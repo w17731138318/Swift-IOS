@@ -12,6 +12,11 @@
 		5B2628E121269E790032D672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2628DF21269E790032D672 /* Main.storyboard */; };
 		5B2628E321269E790032D672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2628E221269E790032D672 /* Assets.xcassets */; };
 		5B2628E621269E790032D672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2628E421269E790032D672 /* LaunchScreen.storyboard */; };
+		5BA7A75E2126B70400863A86 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7A75A2126B70300863A86 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		5BA7A75F2126B70400863A86 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7A75B2126B70400863A86 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		5BA7A7602126B70400863A86 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7A75C2126B70400863A86 /* Gaspar Regular.otf */; };
+		5BA7A7612126B70400863A86 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7A75D2126B70400863A86 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		5BA7A7642126B9C100863A86 /* CustomFont.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7A7622126B9C100863A86 /* CustomFont.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		5B2628E221269E790032D672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B2628E521269E790032D672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2628E721269E790032D672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA7A75A2126B70300863A86 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5BA7A75B2126B70400863A86 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5BA7A75C2126B70400863A86 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		5BA7A75D2126B70400863A86 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		5BA7A7632126B9C100863A86 /* CustomFont.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomFont.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +69,22 @@
 				5B2628DF21269E790032D672 /* Main.storyboard */,
 				5B2628E221269E790032D672 /* Assets.xcassets */,
 				5B2628E421269E790032D672 /* LaunchScreen.storyboard */,
+				5BA7A7512126B49B00863A86 /* Fonts */,
 				5B2628E721269E790032D672 /* Info.plist */,
+				5BA7A7622126B9C100863A86 /* CustomFont.xcdatamodeld */,
 			);
 			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		5BA7A7512126B49B00863A86 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5BA7A75C2126B70400863A86 /* Gaspar Regular.otf */,
+				5BA7A75B2126B70400863A86 /* MFJinHei_Noncommercial-Regular.ttf */,
+				5BA7A75A2126B70300863A86 /* MFTongXin_Noncommercial-Regular.ttf */,
+				5BA7A75D2126B70400863A86 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2628E621269E790032D672 /* LaunchScreen.storyboard in Resources */,
+				5BA7A7602126B70400863A86 /* Gaspar Regular.otf in Resources */,
+				5BA7A7612126B70400863A86 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				5B2628E321269E790032D672 /* Assets.xcassets in Resources */,
+				5BA7A75F2126B70400863A86 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				5BA7A75E2126B70400863A86 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				5B2628E121269E790032D672 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B2628DE21269E790032D672 /* ViewController.swift in Sources */,
+				5BA7A7642126B9C100863A86 /* CustomFont.xcdatamodeld in Sources */,
 				5B2628DC21269E790032D672 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +348,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BA7A7622126B9C100863A86 /* CustomFont.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BA7A7632126B9C100863A86 /* CustomFont.xcdatamodel */,
+			);
+			currentVersion = 5BA7A7632126B9C100863A86 /* CustomFont.xcdatamodel */;
+			path = CustomFont.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5B2628D021269E790032D672 /* Project object */;
 }
