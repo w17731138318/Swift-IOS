@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PitchPerfec/PlaySoundsViewController.swift"
+            timestampString = "556169772.792882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "PlaySoundsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfec.PlaySoundsViewController.snailButton.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "PitchPerfec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangweixin/ios/Swift-IOS/PitchPerfec/PitchPerfec/PlaySoundsViewController.swift"
+                  timestampString = "556168385.852688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfec.PlaySoundsViewController.snailButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "PitchPerfec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangweixin/ios/Swift-IOS/PitchPerfec/PitchPerfec/PlaySoundsViewController.swift"
+                  timestampString = "556168385.861114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfec.PlaySoundsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PitchPerfec.PlaySoundsViewController"
+                  moduleName = "PitchPerfec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangweixin/ios/Swift-IOS/PitchPerfec/PitchPerfec/PlaySoundsViewController.swift"
+                  timestampString = "556168385.868589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PitchPerfec.PlaySoundsViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;PitchPerfec.PlaySoundsViewController&gt;"
+                  moduleName = "PitchPerfec"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangweixin/ios/Swift-IOS/PitchPerfec/PitchPerfec/PlaySoundsViewController.swift"
+                  timestampString = "556168385.905184"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
